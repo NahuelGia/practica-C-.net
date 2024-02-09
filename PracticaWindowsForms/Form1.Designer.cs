@@ -40,16 +40,16 @@
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.pbApellido = new System.Windows.Forms.PictureBox();
+            this.pbNombre = new System.Windows.Forms.PictureBox();
+            this.pbDireccion = new System.Windows.Forms.PictureBox();
+            this.pbEdad = new System.Windows.Forms.PictureBox();
+            this.pbResultado = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbApellido)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNombre)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDireccion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEdad)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbResultado)).BeginInit();
             this.SuspendLayout();
             // 
             // txtApellido
@@ -195,50 +195,50 @@
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // pictureBox1
+            // pbApellido
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(149)))), ((int)(((byte)(99)))));
-            this.pictureBox1.Location = new System.Drawing.Point(121, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(219, 27);
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
+            this.pbApellido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(149)))), ((int)(((byte)(99)))));
+            this.pbApellido.Location = new System.Drawing.Point(121, 12);
+            this.pbApellido.Name = "pbApellido";
+            this.pbApellido.Size = new System.Drawing.Size(219, 27);
+            this.pbApellido.TabIndex = 11;
+            this.pbApellido.TabStop = false;
             // 
-            // pictureBox2
+            // pbNombre
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(149)))), ((int)(((byte)(99)))));
-            this.pictureBox2.Location = new System.Drawing.Point(121, 41);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(219, 27);
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
+            this.pbNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(149)))), ((int)(((byte)(99)))));
+            this.pbNombre.Location = new System.Drawing.Point(121, 41);
+            this.pbNombre.Name = "pbNombre";
+            this.pbNombre.Size = new System.Drawing.Size(219, 27);
+            this.pbNombre.TabIndex = 12;
+            this.pbNombre.TabStop = false;
             // 
-            // pictureBox3
+            // pbDireccion
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(149)))), ((int)(((byte)(99)))));
-            this.pictureBox3.Location = new System.Drawing.Point(121, 104);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(219, 27);
-            this.pictureBox3.TabIndex = 13;
-            this.pictureBox3.TabStop = false;
+            this.pbDireccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(149)))), ((int)(((byte)(99)))));
+            this.pbDireccion.Location = new System.Drawing.Point(121, 104);
+            this.pbDireccion.Name = "pbDireccion";
+            this.pbDireccion.Size = new System.Drawing.Size(219, 27);
+            this.pbDireccion.TabIndex = 13;
+            this.pbDireccion.TabStop = false;
             // 
-            // pictureBox4
+            // pbEdad
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(149)))), ((int)(((byte)(99)))));
-            this.pictureBox4.Location = new System.Drawing.Point(121, 70);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(57, 27);
-            this.pictureBox4.TabIndex = 14;
-            this.pictureBox4.TabStop = false;
+            this.pbEdad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(149)))), ((int)(((byte)(99)))));
+            this.pbEdad.Location = new System.Drawing.Point(121, 70);
+            this.pbEdad.Name = "pbEdad";
+            this.pbEdad.Size = new System.Drawing.Size(57, 27);
+            this.pbEdad.TabIndex = 14;
+            this.pbEdad.TabStop = false;
             // 
-            // pictureBox5
+            // pbResultado
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(149)))), ((int)(((byte)(99)))));
-            this.pictureBox5.Location = new System.Drawing.Point(11, 175);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(475, 179);
-            this.pictureBox5.TabIndex = 15;
-            this.pictureBox5.TabStop = false;
+            this.pbResultado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(149)))), ((int)(((byte)(99)))));
+            this.pbResultado.Location = new System.Drawing.Point(11, 175);
+            this.pbResultado.Name = "pbResultado";
+            this.pbResultado.Size = new System.Drawing.Size(475, 179);
+            this.pbResultado.TabIndex = 15;
+            this.pbResultado.TabStop = false;
             // 
             // Form1
             // 
@@ -258,11 +258,11 @@
             this.Controls.Add(this.txtEdad);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtApellido);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pbApellido);
+            this.Controls.Add(this.pbNombre);
+            this.Controls.Add(this.pbDireccion);
+            this.Controls.Add(this.pbEdad);
+            this.Controls.Add(this.pbResultado);
             this.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -272,11 +272,11 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Datos Personales";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbApellido)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNombre)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDireccion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEdad)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbResultado)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -296,11 +296,11 @@
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pbApellido;
+        private System.Windows.Forms.PictureBox pbNombre;
+        private System.Windows.Forms.PictureBox pbDireccion;
+        private System.Windows.Forms.PictureBox pbEdad;
+        private System.Windows.Forms.PictureBox pbResultado;
     }
 }
 

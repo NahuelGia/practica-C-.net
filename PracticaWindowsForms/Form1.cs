@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,50 +30,32 @@ namespace PracticaWindowsForms
                 btnCancelar.FlatAppearance.BorderSize = 2;
        }
 
-        private void txtEdad_TextChanged(object sender, EventArgs e)
-        {
-            txtEdad.BackColor = SystemColors.Window;
-        }
-
-        private void txtEdad_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            // Compruebo que solo se ingresen datos númericos
-
-            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8)
-                e.Handled = true;
-        }
-
-        private void txtApellido_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            // Compruebo que solo se ingresen datos alfabéticos
-           
-            if (!char.IsLetter(e.KeyChar) && e.KeyChar != 8)
-                e.Handled = true;
-
-        }
 
         private void ComprobarCampos()
         {
-            if (string.IsNullOrEmpty(txtApellido.Text))
-            {
-                txtApellido.BackColor = Color.Red;
-            }
-            else { }
 
-            if (string.IsNullOrEmpty(txtNombre.Text))
+            List<TextBox> camposAComprobar = this.camposObligatorios();
+            
+            foreach (TextBox campo in camposAComprobar)
             {
-                txtNombre.BackColor = Color.Red;
-            }
-
-            if (string.IsNullOrEmpty(txtEdad.Text))
-            {
-                txtEdad.BackColor = Color.Red;
+                if (string.IsNullOrEmpty(campo.Text))
+                {
+                    campo.BackColor = Color.Red;
+                }
             }
 
-            if (string.IsNullOrEmpty(txtDireccion.Text))
-            {
-                txtDireccion.BackColor = Color.Red;
-            }
+        }
+
+        private List<TextBox> camposObligatorios()
+        {
+            List<TextBox> listadoDeCampos = new List<TextBox>();
+
+            listadoDeCampos.Add(txtApellido);
+            listadoDeCampos.Add(txtEdad);
+            listadoDeCampos.Add(txtDireccion);
+            listadoDeCampos.Add(txtNombre);
+
+            return listadoDeCampos;
         }
 
         private bool ValidarCamposCompletados()
@@ -112,21 +95,41 @@ namespace PracticaWindowsForms
         {
             txtApellido.BackColor = SystemColors.Window;
         }
-
         private void txtNombre_TextChanged(object sender, EventArgs e)
         {
             txtNombre.BackColor = SystemColors.Window;
         }
-
         private void txtDireccion_TextChanged(object sender, EventArgs e)
         {
             txtDireccion.BackColor = SystemColors.Window;
+        }
+        private void txtEdad_TextChanged(object sender, EventArgs e)
+        {
+            txtEdad.BackColor = SystemColors.Window;
         }
 
         private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsLetter(e.KeyChar) && e.KeyChar != 8)
                 e.Handled = true;
+
         }
+        private void txtEdad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Compruebo que solo se ingresen datos númericos
+
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8)
+                e.Handled = true;
+        }
+        private void txtApellido_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Compruebo que solo se ingresen datos alfabéticos
+           
+            if (!char.IsLetter(e.KeyChar) && e.KeyChar != 8)
+                e.Handled = true;
+
+        }
+
+
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\sulac\source\repos\PracticaWindowsForms\PracticaWindowsForms\bin\Debug\PracticaWindowsForms.exe.config
+C:\Users\sulac\source\repos\PracticaWindowsForms\PracticaWindowsForms\bin\Debug\PracticaWindowsForms.exe
+C:\Users\sulac\source\repos\PracticaWindowsForms\PracticaWindowsForms\bin\Debug\PracticaWindowsForms.pdb
+C:\Users\sulac\source\repos\PracticaWindowsForms\PracticaWindowsForms\obj\Debug\PrimeraAppWindowsForms.csproj.AssemblyReference.cache
+C:\Users\sulac\source\repos\PracticaWindowsForms\PracticaWindowsForms\obj\Debug\PracticaWindowsForms.Form1.resources
+C:\Users\sulac\source\repos\PracticaWindowsForms\PracticaWindowsForms\obj\Debug\PracticaWindowsForms.Properties.Resources.resources
+C:\Users\sulac\source\repos\PracticaWindowsForms\PracticaWindowsForms\obj\Debug\PrimeraAppWindowsForms.csproj.GenerateResource.cache
+C:\Users\sulac\source\repos\PracticaWindowsForms\PracticaWindowsForms\obj\Debug\PrimeraAppWindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\sulac\source\repos\PracticaWindowsForms\PracticaWindowsForms\obj\Debug\PracticaWindowsForms.exe
+C:\Users\sulac\source\repos\PracticaWindowsForms\PracticaWindowsForms\obj\Debug\PracticaWindowsForms.pdb
